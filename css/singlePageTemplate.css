@@ -27,13 +27,14 @@ header {
 }
 .logo {
 	color: #fff;
+	font-size: auto;
 	font-weight: bold;
 	text-align: undefined;
-	width: 10%;
+	width: 100%;
 	float: left;
 	margin-top: 15px;
 	margin-left: 25px;
-	letter-spacing: 4px;
+	letter-spacing: 0px;
 }
 nav {
 	float: right;
@@ -357,7 +358,6 @@ pres.resize img { width: 100%; }
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
-	color: #043745;
 }
 .container header nav {
 	margin-top: 0px;
@@ -457,6 +457,9 @@ nav ul li {
 
 /* Small Desktops */
 @media (min-width: 768px) and (max-width: 1096px) {
+.logo {
+	width: 40%;
+}
 .text_column {
 	width: 100%;
 }
@@ -483,6 +486,9 @@ pres.resize img { width: 100%; }
 
 /* Desktops */
 @media (min-width: 1096px) and (max-width: 9999px) {
+.logo {
+	width: 25%;
+}
 .text_column {
 	width: 100%;
 }
