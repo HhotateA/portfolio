@@ -480,3 +480,29 @@ pres.resize img { width: 100%; }
 	padding-top: 0px;
 }
 }
+
+/* Desktops */
+@media (min-width: 1096px) and (max-width: 9999px) {
+.text_column {
+	width: 100%;
+}
+.thumbnail {
+	width: 50%;
+}
+pres.resize img { width: 100%; }
+.text_column {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.banner {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+}
